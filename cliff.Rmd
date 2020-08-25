@@ -1,0 +1,30 @@
+---
+title: "creative cliff illusion"
+output: html_notebook
+---
+# Significance 
+
+> Creativity research across the social sciences seeks to elucidate factors that enhance and stifle creativity. We demonstrate that people systematically misunderstand their own creativity across an ideation session. Eight studies found that people expect their creativity to decline across an ideation session when it, in fact, tends to improve or persist (we call this misprediction the creative cliff illusion). These beliefs are consequential because they lead people to undervalue ideation: They exhibit less task persistence and lower creative performance. This research documents a fundamental disconnect between people’s beliefs and the reality of how creativity emerges over time. It demonstrates the value of understanding creativity beliefs and has implications for facilitating creativity in individuals and their organizations and institutions.
+
+# Abstract
+
+> Across eight studies, we tested whether people understand the time course of their own creativity. Prior literature finds that creativity tends to improve across an ideation session. Here we compared people’s beliefs against their actual creative performance. Consistent with prior research, we found that people’s creativity, on aggregate, remained constant or improved across an ideation session. However, people’s beliefs did not match this reality. We consistently found that people expected their creativity to decline over time. We refer to this misprediction as the creative cliff illusion. Study 1 found initial evidence of this effect across an ideation task. We found further evidence in a sample with high domain-relevant knowledge (study 2), when creativity judgments were elicited retrospectively (study 3), and across a multiday study (study 5). We theorized the effect occurs because people mistakenly associate creativity (the novelty and usefulness of an idea) with idea production (the ability to generate an idea). Study 4 found evidence consistent with this mechanism. The creative cliff illusion was attenuated among those with high levels of everyday creative experience (study 6) and after a knowledge intervention that increased awareness of the effect (study 7). Demonstrating the impact of creativity beliefs on downstream performance, study 8 found that declining creativity beliefs negatively influenced task persistence and creative performance, suggesting that people underinvest in ideation. This research contributes to work on prediction in the creative domain and demonstrates the importance of understanding creativity beliefs for predicting creative performance.
+
+# original manuscript and data
+
+[Source](https://www.pnas.org/content/117/33/19830.short)
+
+[Supplementary PDF](https://www.pnas.org/content/pnas/suppl/2020/08/01/2005620117.DCSupplemental/pnas.2005620117.sapp.pdf)
+
+[data](https://osf.io/uncjr/?view_only=c5f1a56705c14cf8a7eb335d52c867f3)
+
+# experiments
+
+- 1: 初期のエビデンス
+- 2: ドメイン知識高　のひとびと
+- 3: 終わってからクリエイティビティについて思い出す
+- 5: 数日に渡って
+- 4: 創造性をアイディアをだす能力と勘違いしているのではという仮説を検証
+- 6: 日々創造的なタスクをこなしている経験があるひとびと
+- 7: この効果の存在を教わってから
+- 8: 創造性が低下しているという信念がやる気を削いでいる（？）

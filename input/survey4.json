@@ -1,0 +1,826 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_6mpaTztGS6qDDtr",
+    "SurveyName": "Timecourse_SurveyFile_BookstoreTask",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "UR_4YlVUf3eHEcfz01",
+    "SurveyBrandID": "cornell",
+    "DivisionID": null,
+    "SurveyLanguage": "EN",
+    "SurveyActiveResponseSet": "RS_d5s9REMtRHGIw7j",
+    "SurveyStatus": "Inactive",
+    "SurveyStartDate": "0000-00-00 00:00:00",
+    "SurveyExpirationDate": "0000-00-00 00:00:00",
+    "SurveyCreationDate": "2020-04-03 08:41:46",
+    "CreatorID": "UR_4YlVUf3eHEcfz01",
+    "LastModified": "2020-04-03 08:55:30",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "LastActivated": "0000-00-00 00:00:00",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "1": {
+          "Type": "Trash",
+          "Description": "Trash / Unused Questions",
+          "ID": "BL_9tzLz0JnIVagLzK",
+          "BlockElements": []
+        },
+        "4": {
+          "Type": "Standard",
+          "Description": "predictions",
+          "ID": "BL_0kMQvxAf3rmsf9X",
+          "BlockElements": [
+            { "Type": "Question", "QuestionID": "QID187" },
+            { "Type": "Page Break" },
+            { "Type": "Question", "QuestionID": "QID277" }
+          ],
+          "Options": {
+            "BlockLocking": "false",
+            "RandomizeQuestions": "false",
+            "BlockVisibility": "Collapsed"
+          }
+        },
+        "9": {
+          "Type": "Standard",
+          "Description": "bookstore task",
+          "ID": "BL_bDVt9LFdglSbZOt",
+          "BlockElements": [
+            { "Type": "Question", "QuestionID": "QID271" },
+            { "Type": "Question", "QuestionID": "QID227" }
+          ],
+          "Options": {
+            "BlockLocking": "false",
+            "RandomizeQuestions": "false",
+            "BlockVisibility": "Expanded"
+          }
+        },
+        "15": {
+          "Type": "Standard",
+          "SubType": "",
+          "Description": "time_periods",
+          "ID": "BL_3ZW8brYSTxGWsyF",
+          "BlockElements": [
+            { "Type": "Question", "QuestionID": "QID234" },
+            { "Type": "Page Break" },
+            { "Type": "Question", "QuestionID": "QID229" },
+            { "Type": "Question", "QuestionID": "QID230" },
+            { "Type": "Page Break" },
+            { "Type": "Question", "QuestionID": "QID236" },
+            { "Type": "Question", "QuestionID": "QID238" },
+            { "Type": "Page Break" },
+            { "Type": "Question", "QuestionID": "QID240" },
+            { "Type": "Question", "QuestionID": "QID242" },
+            { "Type": "Page Break" },
+            { "Type": "Question", "QuestionID": "QID243" },
+            { "Type": "Question", "QuestionID": "QID245" },
+            { "Type": "Page Break" },
+            { "Type": "Question", "QuestionID": "QID246" },
+            { "Type": "Question", "QuestionID": "QID248" },
+            { "Type": "Page Break" }
+          ],
+          "Options": {
+            "BlockLocking": "false",
+            "RandomizeQuestions": "false",
+            "BlockVisibility": "Collapsed"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Type": "Root",
+        "FlowID": "FL_1",
+        "Flow": [
+          { "Type": "Standard", "ID": "BL_bDVt9LFdglSbZOt", "FlowID": "FL_45" },
+          { "Type": "Block", "ID": "BL_0kMQvxAf3rmsf9X", "FlowID": "FL_64" },
+          { "Type": "Standard", "ID": "BL_3ZW8brYSTxGWsyF", "FlowID": "FL_66" }
+        ],
+        "Properties": { "Count": 72, "RemovedFieldsets": [] }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "false",
+        "SaveAndContinue": "true",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "false",
+        "OneCompletePerIP": "false",
+        "SurveyExpiration": null,
+        "SurveyTermination": "DefaultMessage",
+        "Header": "",
+        "Footer": "",
+        "ProgressBarDisplay": "None",
+        "PartialData": "+4 hour",
+        "ValidationMessage": null,
+        "PreviousButton": "  <<  ",
+        "NextButton": "  >>  ",
+        "SkinLibrary": "Qualtrics",
+        "SkinType": "MQ",
+        "Skin": "v4qualtrics1",
+        "EOSMessage": "MS_donBJBppSno1Dgx",
+        "ShowExportTags": "false",
+        "SurveyTitle": "Survey | Qualtrics Survey Software",
+        "SurveyMetaDescription": "Survey Software, Enterprise Survey software for enterprise feedback management and CRM solutions.  Enables high-quality data collection, panel management and results analysis. Perfect for market research or CRM solution (Customer Relationship Management) integration.  Free trial and consultation.",
+        "PasswordProtection": "No",
+        "AnonymizeResponse": "No",
+        "Password": "",
+        "RefererCheck": "No",
+        "NoIndex": "No",
+        "RefererURL": "http://",
+        "EOSMessageLibrary": "UR_3RgTA7eNhWDNxfS",
+        "EOSRedirectURL": "https://",
+        "EmailThankYou": "false",
+        "ThankYouEmailMessageLibrary": null,
+        "ThankYouEmailMessage": null,
+        "ValidateMessage": "false",
+        "ValidationMessageLibrary": null,
+        "InactiveSurvey": "DefaultMessage",
+        "InactiveMessageLibrary": "",
+        "InactiveMessage": "",
+        "AvailableLanguages": { "EN": [] },
+        "ExternalCSS": null,
+        "CustomStyles": {
+          "errorStyles": {
+            "selector": ".Skin .ValidationError",
+            "styles": {
+              "color": null,
+              "backgroundColor": null,
+              "borderColor": null
+            }
+          },
+          "errorStylesBG": {
+            "selector": ".Skin .HeaderValidationError, .Skin .HeaderValidationError li a",
+            "styles": { "color": null, "backgroundColor": null }
+          },
+          "pageStyles": {
+            "selector": "#SurveyEngineBody",
+            "styles": { "backgroundColor": null }
+          },
+          "textStyles": {
+            "selector": ".SkinInner",
+            "styles": {
+              "fontFamily": null,
+              "fontSize": null,
+              "fontWeight": null,
+              "fontStyle": null,
+              "textDecoration": null,
+              "color": null
+            }
+          },
+          "questionStyles": {
+            "selector": ".Skin .QuestionText",
+            "styles": {
+              "fontFamily": null,
+              "fontSize": null,
+              "fontWeight": null,
+              "fontStyle": null,
+              "textDecoration": null,
+              "color": null
+            }
+          },
+          "choiceStyles": {
+            "selector": ".Skin .horizontalbar th.ylabel, .Skin .Matrix table td, .Skin .Matrix table th, .Skin .Matrix table thead th, .Skin .Matrix table thead td, .Skin .PGR .DragAndDrop .Items label, .Skin .QuestionBody ul.ChoiceStructure, .Skin .PGR .DragAndDrop .Group ul, .Skin .PGR .DragAndDrop .Group h2, .Skin .PGR .DragAndDrop .Items ul, .Skin .PGR .DragAndDrop .Items h2, .Skin .DD .QuestionBody table.ChoiceStructure, .Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div ul, .Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div h2, .Skin .SBS thead th, .Skin .SBS td, .Skin .SBS .Answers td, .Skin .SBS .Answers th, .SBS table.ChoiceStructure, .Skin .horizontalbar thead table.LabelDescriptions tr td, .Skin .horizontalbar thead tr td.NotApplicable, .QuestionBody th, .Skin .QuestionBody .MC .MAVR label, .Skin .QuestionBody .MC .SAVR label, .Skin .SBS thead th, .Skin .SBS td, .Skin .RO .DND ul li, .Skin .reg, .SkinInner .ChoiceStructure, .Skin thead, .Skin .GAP .ChoiceStructure thead th, .Skin .GAP .ChoiceStructure .c4, .Skin .GAP .ChoiceStructure th, .Skin .GAP .ChoiceStructure .WhyText, .SkinInner .ChoiceStructure .LightBG, .Skin .QuestionOuter.Highlight .Inner .reg, .Skin .QuestionOuter.Highlight .Inner .alt, .Skin .QuestionOuter.Highlight .Inner .ReadableAlt       ",
+            "styles": {
+              "fontFamily": null,
+              "fontSize": null,
+              "fontWeight": null,
+              "fontStyle": null,
+              "textDecoration": null,
+              "color": null
+            }
+          },
+          "headerStyles": {
+            "selector": ".Skin div#Header",
+            "styles": { "color": null }
+          },
+          "footerStyles": {
+            "selector": ".Skin #Footer",
+            "styles": { "color": null }
+          },
+          "questionSeparatorStyles": {
+            "selector": ".Skin .Separator",
+            "styles": { "backgroundColor": null, "display": null }
+          },
+          "highlightStyles": {
+            "selector": ".Skin .QuestionOuter.Highlight .Inner, .Skin .QuestionOuter.Highlight .Inner .reg, .Skin .QuestionOuter.Highlight .Inner .alt, .Skin .QuestionOuter.Highlight .Inner .ReadableAlt",
+            "styles": { "backgroundColor": null }
+          },
+          "highlightStylesAlt": {
+            "selector": ".Skin .QuestionOuter.Highlight .Inner .ReadableAlt, .Skin .QuestionOuter.Highlight .Inner .LightBG",
+            "styles": { "backgroundColor": null }
+          },
+          "textEntryStyles": {
+            "selector": ".Skin select, .Skin .InputText",
+            "styles": { "color": null }
+          },
+          "borderStyles": {
+            "selector": ".Skin .CS .horizontalbar table.sliderGrid tr.xlabel th, .Skin .CS .horizontalbar .ylabel, .Skin .CS .horizontalbar table.sliderGrid tr td.value, .Skin .Slider .horizontalbar table.sliderGrid tr.xlabel th, .Skin .BorderColor, .Skin .DarkBorderColor, .Skin .Slider .horizontalbar table.sliderGrid tr td.value, .Skin thead, .Skin .GAP .ChoiceStructure thead th  ",
+            "styles": { "borderColor": null }
+          },
+          "altRowStyles": {
+            "selector": ".Skin .ReadableAlt, .Skin .LightBG",
+            "styles": { "backgroundColor": null }
+          },
+          "customCSS": null
+        },
+        "libraryId": "",
+        "nextButtonMid": "",
+        "previousButtonMid": "",
+        "headerMid": "",
+        "footerMid": "",
+        "QuestionsPerPage": "",
+        "HighlightQuestions": "off",
+        "SkinQuestionWidth": 700,
+        "SurveyCreationDate": "2012-10-25 08:31:22",
+        "NewScoring": 1,
+        "CollectGeoLocation": "false",
+        "ProtectSelectionIds": true,
+        "SecureResponseFiles": "false",
+        "PartialDataCloseAfter": "LastActivity",
+        "ActiveResponseSet": null,
+        "ResponseSummary": "No",
+        "SurveyName": "Timecourse_SurveyFile_BookstoreTask"
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SCO",
+      "PrimaryAttribute": "Scoring",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ScoringCategories": [],
+        "ScoringCategoryGroups": [],
+        "ScoringSummaryCategory": null,
+        "ScoringSummaryAfterQuestions": false,
+        "ScoringSummaryAfterSurvey": false,
+        "NextCategoryId": 1,
+        "NextGroupId": 1,
+        "DefaultScoringCategory": null,
+        "ID": "Scoring"
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "PROJ",
+      "PrimaryAttribute": "CORE",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": "1.1.0",
+      "Payload": { "ProjectCategory": "CORE", "SchemaVersion": "1.1.0" }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "STAT",
+      "PrimaryAttribute": "Survey Statistics",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": { "MobileCompatible": false, "ID": "Survey Statistics" }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "QC",
+      "PrimaryAttribute": "Survey Question Count",
+      "SecondaryAttribute": "281",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID271",
+      "SecondaryAttribute": "\u00a0 University Bookstore Task \u00a0 \u00a0 Instructions: The University of Chicago bookstore is looking for.",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<div style=\"text-align: center;\">&nbsp; <span style=\"font-size:19px;\">University Bookstore Task</span><br />\n&nbsp;</div>\n\n<div style=\"text-align: center;\"><img src=\"https://chicagobooth.az1.qualtrics.com/CP/Graphic.php?IM=IM_6Lvz4OpLTMzqH0p\" style=\"width: 500px; height: 281px;\" /></div>\n\n<div style=\"text-align: center;\">&nbsp;</div>\n\n<div><u><em style=\"font-size: 16px;\">Instructions</em></u><font size=\"3\">:<span style=\"font-size:16px;\"> </span></font><span style=\"font-size:16px;\">The University of Chicago bookstore is looking for creative ideas for an innovative product to sell to students. Specifically, the bookstore is looking for ideas for <strong>products that will help roommates to get along better</strong>.</span></div>\n<span style=\"font-size:16px;\">&nbsp;<br />\nYour goal is to think of as many creative ideas as you can. Creative ideas are both novel and useful.&nbsp;</span><span style=\"font-size:16px;\">After this study is complete, your responses will be (anonymously) passed along to the university bookstore.&nbsp;</span><br />\n<br />\n<span style=\"font-size: 16px;\">You will work on this task for 20 minutes.</span><br />\n<br />\n<u style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 16px;\"><em>Bonus</em></u><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 16px;\">: The ideas of all study participants will be rated for creativity. For each idea you think of that is rated above average in creativity, you will earn 1 ticket into a $50 raffle</span><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 16px;\">. Thus, the more creative ideas you generate, the more chances you will have to win.&nbsp;<br />\n<br />\nClick the arrow to continue.&nbsp;</span>",
+        "DataExportTag": "Q99",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": { "Private": false, "Hidden": false },
+        "Configuration": { "QuestionDescriptionOption": "UseText" },
+        "QuestionDescription": "\u00a0 University Bookstore Task \u00a0 \u00a0 Instructions: The University of Chicago bookstore is looking for...",
+        "Choices": [],
+        "ChoiceOrder": [],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        },
+        "Language": [],
+        "QuestionID": "QID271"
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "RS",
+      "PrimaryAttribute": "RS_d5s9REMtRHGIw7j",
+      "SecondaryAttribute": "Default Response Set",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID240",
+      "SecondaryAttribute": "Eight minutes have passed. Please\u00a0continue\u00a0generating as many creative ideas as you can for an in.",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<span style=\"font-size:16px;\"><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; \">Eight minutes have passed. Please&nbsp;</span>continue&nbsp;generating as many creative ideas as you can for an innovative product for the university bookstore to sell to students&nbsp;</span><u style=\"font-size: 16px;\">that will help roommates to get along better</u><span style=\"font-size: 16px;\">.&nbsp;</span><br />\n<br />\n<span style=\"font-size: 16px;\"><u><em><strong>Important</strong></em></u>: Press &quot;return&quot; after each idea so that each idea appears on a separate line.</span>&nbsp;<br />\n<br />\n<span style=\"font-size:16px;\"><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; \">Your responses so far:</span></span><br />\n<span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 12px; \">${q://QID229/ChoiceTextEntryValue}</span><br />\n<span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 12px; \">${q://QID236/ChoiceTextEntryValue}</span>",
+        "DefaultChoices": false,
+        "DataExportTag": "t3",
+        "QuestionType": "TE",
+        "Selector": "ESTB",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "InputWidth": 650,
+          "InputHeight": 260
+        },
+        "QuestionDescription": "Eight minutes have passed. Please\u00a0continue\u00a0generating as many creative ideas as you can for an in...",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID240",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID236",
+      "SecondaryAttribute": "Four minutes have passed. Please continue generating as many creative ideas as you can for an inn...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<span style=\"font-size:16px;\"><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; \">Four minutes have passed. Please </span>continue generating as many creative ideas as you can for an innovative product for the university bookstore to sell to students&nbsp;</span><u style=\"font-size: 16px;\">that will help roommates to get along better</u><span style=\"font-size:16px;\">.&nbsp;</span><br />\n<br />\n<span style=\"font-size:16px;\"><u><em><strong>Important</strong></em></u>: Press &quot;return&quot; after each idea so that each idea appears on a separate line.</span>&nbsp;<br />\n<br />\n<span style=\"font-size:16px;\"><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; \">Your responses so far:</span></span><br />\n<span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 12px; \">${q://QID229/ChoiceTextEntryValue}</span>",
+        "DefaultChoices": false,
+        "DataExportTag": "t2",
+        "QuestionType": "TE",
+        "Selector": "ESTB",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "InputWidth": 650,
+          "InputHeight": 400
+        },
+        "QuestionDescription": "Four minutes have passed. Please continue generating as many creative ideas as you can for an inn...",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID236",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID229",
+      "SecondaryAttribute": "Generate as many creative ideas as you can for an innovative product for the university bookstore...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<span style=\"font-size:16px;\">Generate as many creative ideas as you can for an innovative product for the university bookstore to sell to students&nbsp;<u>that will help roommates to get along better</u>.&nbsp;</span><br />\n<br />\n<br />\n<span style=\"font-size:16px;\"><u><em><strong>Important</strong></em></u>: Press &quot;return&quot; after each idea so that each idea appears on a separate line.</span>&nbsp;",
+        "DefaultChoices": false,
+        "DataExportTag": "t1",
+        "QuestionType": "TE",
+        "Selector": "ESTB",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "InputWidth": 650,
+          "InputHeight": 402
+        },
+        "QuestionDescription": "Generate as many creative ideas as you can for an innovative product for the university bookstore...",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID229",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID187",
+      "SecondaryAttribute": "How creative will you be? Before you work on the task, we would like you to answer a few question...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<div style=\"text-align: center;\"><span style=\"font-size:19px;\"><strong>How <u>creative</u> will you be?</strong></span></div>\n<br>\n<font size=\"3\">Before you work on the task, we would like you to answer a few questions. We want to know how creative, on average, you think your ideas will be throughout the task. By </font><em style=\"font-size: 16px; \">creative ideas</em><font size=\"3\">, we mean ideas that are both novel and useful.&nbsp;</font><br>\n<br>\n<font size=\"3\">The diagram below depicts the&nbsp;time-course&nbsp;of this task in five 4-minute periods.</font>\n\n<div><img src=\"https://cornell.qualtrics.com/CP/Graphic.php?IM=IM_8CGIE1FuBZzcAaV\" style=\"width: 695px; height: 146px;\"><br>\n<br>\n<font size=\"3\">Below is a slider bar to represent each Period of the task. Move each slider bar to indicate how creative you think your ideas will be during each period.&nbsp;</font></div><div><span style=\"font-size: 16px;\"><br></span></div><div><span style=\"font-size: 16px;\">For example, if you think the creativity of your ideas will increase (decrease) between Period 1 and Period 2, then your response on the Period 2 slider bar should be a value greater (less) than your response on the Period 1 slider bar. &nbsp;</span>\n\n<div>&nbsp;</div>\n\n<div><font size=\"3\">&nbsp;(-)50 = Not at all Creative</font></div>\n\n<div><font size=\"3\">&nbsp; &nbsp; &nbsp; &nbsp;0 = Moderately Creative</font></div>\n\n<div><font size=\"3\">(+)50 = Extremely Creative</font></div>\n\n<div><font size=\"3\">&nbsp;</font></div>\n<span style=\"font-size:16px;\">Please use the slider bars to indicate how creative, on average, you think your responses will be across the task.</span><br>\n&nbsp;</div>",
+        "DefaultChoices": false,
+        "DataExportTag": "predict1",
+        "QuestionID": "QID187",
+        "QuestionType": "Slider",
+        "Selector": "HSLIDER",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "CSSliderMin": -50,
+          "CSSliderMax": 50,
+          "GridLines": 10,
+          "SnapToGrid": false,
+          "NumDecimals": "0",
+          "ShowValue": true,
+          "CustomStart": true,
+          "SliderStartPositions": {
+            "1": 0.5025773195876299670459275148459710180759429931640625,
+            "2": 0.5025773195876299670459275148459710180759429931640625,
+            "3": 0.494845360824740010396993739050230942666530609130859375,
+            "4": 0.497422680412369977442921253896201960742473602294921875,
+            "5": 0.5025773195876299670459275148459710180759429931640625
+          },
+          "NotApplicable": false,
+          "CenterLabels": true,
+          "MobileFirst": false
+        },
+        "QuestionDescription": "How creative will you be? Before you work on the task, we would like you to answer a few question...",
+        "Choices": {
+          "1": { "Display": "<strong>Period 1</strong> (start - 4 mins)" },
+          "2": { "Display": "<strong>Period 2</strong> (4 mins - 8 mins)" },
+          "3": { "Display": "<strong>Period 3</strong> (8 mins - 12 mins)" },
+          "4": { "Display": "<strong>Period 4 </strong>(12 mins - 16 mins)" },
+          "5": { "Display": "<strong>Period 5</strong> (16 mins - 20 mins)" }
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5"],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": [],
+        "Labels": {
+          "1": { "Display": "Not at all Creative" },
+          "2": { "Display": "Moderately Creative" },
+          "3": { "Display": "Extremely Creative" }
+        },
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID277",
+      "SecondaryAttribute": "How productive\u00a0will you be? Next we would like to know how many ideas you think you will generate..",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<div style=\"text-align: center;\"><span style=\"font-size:19px;\"><strong>How <u>productive</u>&nbsp;will you be?</strong></span></div>\n<br />\n<span style=\"color: rgb(64, 64, 64); font-family: &quot;Qualtrics Grotesque&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: medium;\">Next we would like to know how many ideas you think you will generate&nbsp;</span><span style=\"font-size: medium;\">throughout the task. Will your productivity increase, decrease, or stay the same across the task?&nbsp;</span><br />\n<br />\n<font size=\"3\">The diagram below depicts the&nbsp;time-course&nbsp;of this task in five 4-minute periods.</font>\n\n<div><img src=\"https://cornell.qualtrics.com/CP/Graphic.php?IM=IM_8CGIE1FuBZzcAaV\" style=\"width: 695px; height: 146px;\" /><br />\n<br />\n<font size=\"3\">Below is a slider bar to represent each Period of the task. Move each slider bar to indicate how many ideas you think you will generate during each period.&nbsp;</font><br />\n<br />\n<span style=\"font-size: 16px;\">For example, if you think your productivity will increase (decrease) between Period 1 and Period 2, then your response on the Period 2 slider bar should be a value greater (less) than your response on the Period 1 slider bar. &nbsp;</span>\n\n<div>&nbsp;</div>\n\n<div><font size=\"3\">&nbsp;(-)50 = No ideas at all&nbsp;</font></div>\n\n<div><font size=\"3\">&nbsp; &nbsp; &nbsp; &nbsp;0 = A moderate number of ideas&nbsp;</font></div>\n\n<div><font size=\"3\">(+)50 = An extremely high number of ideas</font></div>\n\n<div><font size=\"3\">&nbsp;</font></div>\n<span style=\"font-size:16px;\">Please use the slider bars to indicate how many ideas you think you will generate across the task.</span><br />\n&nbsp;</div>",
+        "DefaultChoices": false,
+        "DataExportTag": "Q107",
+        "QuestionType": "Slider",
+        "Selector": "HSLIDER",
+        "DataVisibility": { "Private": false, "Hidden": false },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "CSSliderMin": -50,
+          "CSSliderMax": 50,
+          "GridLines": 10,
+          "SnapToGrid": false,
+          "NumDecimals": "0",
+          "ShowValue": true,
+          "CustomStart": true,
+          "SliderStartPositions": {
+            "1": 0.5025773195876299670459275148459710180759429931640625,
+            "2": 0.5025773195876299670459275148459710180759429931640625,
+            "3": 0.494845360824740010396993739050230942666530609130859375,
+            "4": 0.497422680412369977442921253896201960742473602294921875,
+            "5": 0.5025773195876299670459275148459710180759429931640625
+          },
+          "NotApplicable": false,
+          "CenterLabels": true,
+          "MobileFirst": false
+        },
+        "QuestionDescription": "How productive\u00a0will you be? Next we would like to know how many ideas you think you will generate...",
+        "Choices": {
+          "1": { "Display": "<strong>Period 1</strong> (start - 4 mins)" },
+          "2": { "Display": "<strong>Period 2</strong> (4 mins - 8 mins)" },
+          "3": { "Display": "<strong>Period 3</strong> (8 mins - 12 mins)" },
+          "4": { "Display": "<strong>Period 4 </strong>(12 mins - 16 mins)" },
+          "5": { "Display": "<strong>Period 5</strong> (16 mins - 20 mins)" }
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5"],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": [],
+        "Labels": {
+          "1": { "Display": "No ideas at all" },
+          "2": { "Display": "A moderate number of ideas" },
+          "3": { "Display": "An extremely high number of ideas" }
+        },
+        "QuestionID": "QID277"
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID246",
+      "SecondaryAttribute": "Sixteen minutes have passed. Please\u00a0continue\u00a0generating as many creative ideas as you can for an..",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<span style=\"font-size:16px;\"><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; \">Sixteen minutes have passed. Please&nbsp;</span>continue&nbsp;generating as many creative ideas as you can for an innovative product for the university bookstore to sell to students&nbsp;</span><u style=\"font-size: 16px;\">that will help roommates to get along better</u><span style=\"font-size: 16px;\">.&nbsp;</span><br />\n<br />\n<span style=\"font-size: 16px;\"><u><em><strong>Important</strong></em></u>: Press &quot;return&quot; after each idea so that each idea appears on a separate line.</span>&nbsp;<br />\n<br />\n<span style=\"font-size:16px;\"><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; \">Your responses so far:</span></span><br />\n<span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 12px; \">${q://QID229/ChoiceTextEntryValue}</span><br />\n<span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 12px; \">${q://QID236/ChoiceTextEntryValue}</span><br />\n<span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 12px; \">${q://QID240/ChoiceTextEntryValue}<br />\n${q://QID243/ChoiceTextEntryValue}</span>",
+        "DefaultChoices": false,
+        "DataExportTag": "t5",
+        "QuestionType": "TE",
+        "Selector": "ESTB",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "InputWidth": 650,
+          "InputHeight": 260
+        },
+        "QuestionDescription": "Sixteen minutes have passed. Please\u00a0continue\u00a0generating as many creative ideas as you can for an...",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID246",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID227",
+      "SecondaryAttribute": "Timing",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Timing",
+        "DefaultChoices": false,
+        "DataExportTag": "Q229",
+        "QuestionType": "Timing",
+        "Selector": "PageTimer",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "MinSeconds": "0",
+          "MaxSeconds": "0"
+        },
+        "QuestionDescription": "Timing",
+        "Choices": {
+          "1": { "Display": "First Click" },
+          "2": { "Display": "Last Click" },
+          "3": { "Display": "Page Submit" },
+          "4": { "Display": "Click Count" }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID227"
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID230",
+      "SecondaryAttribute": "Timing",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Timing",
+        "DefaultChoices": false,
+        "DataExportTag": "Q235",
+        "QuestionType": "Timing",
+        "Selector": "D",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "MinSeconds": 240,
+          "MaxSeconds": 240,
+          "CountDirection": "Decrementing",
+          "Seconds": 240,
+          "ShowTimer": false
+        },
+        "QuestionDescription": "Timing",
+        "Choices": {
+          "1": { "Display": "First Click" },
+          "2": { "Display": "Last Click" },
+          "3": { "Display": "Page Submit" },
+          "4": { "Display": "Click Count" }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID230",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID238",
+      "SecondaryAttribute": "Timing",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Timing",
+        "DefaultChoices": false,
+        "DataExportTag": "Q65",
+        "QuestionType": "Timing",
+        "Selector": "D",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "MinSeconds": 240,
+          "MaxSeconds": 240,
+          "CountDirection": "Decrementing",
+          "Seconds": 240
+        },
+        "QuestionDescription": "Timing",
+        "Choices": {
+          "1": { "Display": "First Click" },
+          "2": { "Display": "Last Click" },
+          "3": { "Display": "Page Submit" },
+          "4": { "Display": "Click Count" }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID238",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID242",
+      "SecondaryAttribute": "Timing",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Timing",
+        "DefaultChoices": false,
+        "DataExportTag": "Q69",
+        "QuestionType": "Timing",
+        "Selector": "D",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "MinSeconds": 240,
+          "MaxSeconds": 240,
+          "CountDirection": "Decrementing",
+          "Seconds": 240
+        },
+        "QuestionDescription": "Timing",
+        "Choices": {
+          "1": { "Display": "First Click" },
+          "2": { "Display": "Last Click" },
+          "3": { "Display": "Page Submit" },
+          "4": { "Display": "Click Count" }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID242",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID245",
+      "SecondaryAttribute": "Timing",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Timing",
+        "DefaultChoices": false,
+        "DataExportTag": "Q72",
+        "QuestionType": "Timing",
+        "Selector": "D",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "MinSeconds": 240,
+          "MaxSeconds": 240,
+          "CountDirection": "Decrementing",
+          "Seconds": 240
+        },
+        "QuestionDescription": "Timing",
+        "Choices": {
+          "1": { "Display": "First Click" },
+          "2": { "Display": "Last Click" },
+          "3": { "Display": "Page Submit" },
+          "4": { "Display": "Click Count" }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID245",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID248",
+      "SecondaryAttribute": "Timing",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Timing",
+        "DefaultChoices": false,
+        "DataExportTag": "Q75",
+        "QuestionType": "Timing",
+        "Selector": "D",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "MinSeconds": 240,
+          "MaxSeconds": 240,
+          "CountDirection": "Decrementing",
+          "Seconds": 240
+        },
+        "QuestionDescription": "Timing",
+        "Choices": {
+          "1": { "Display": "First Click" },
+          "2": { "Display": "Last Click" },
+          "3": { "Display": "Page Submit" },
+          "4": { "Display": "Click Count" }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID248",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID243",
+      "SecondaryAttribute": "Twelve minutes have passed. Please\u00a0continue\u00a0generating as many creative ideas as you can for an i.",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<span style=\"font-size:16px;\"><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; \">Twelve minutes have passed. Please&nbsp;</span>continue&nbsp;generating as many creative ideas as you can for an innovative product for the university bookstore to sell to students&nbsp;</span><u style=\"font-size: 16px;\">that will help roommates to get along better</u><span style=\"font-size: 16px;\">.&nbsp;</span><br />\n<br />\n<span style=\"font-size: 16px;\"><u><em><strong>Important</strong></em></u>: Press &quot;return&quot; after each idea so that each idea appears on a separate line.</span>&nbsp;<br />\n<br />\n<span style=\"font-size:16px;\"><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; \">Your responses so far:</span></span><br />\n<span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 12px; \">${q://QID229/ChoiceTextEntryValue}</span><br />\n<span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 12px; \">${q://QID236/ChoiceTextEntryValue}</span><br />\n<span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 12px; \">${q://QID240/ChoiceTextEntryValue}</span>",
+        "DefaultChoices": false,
+        "DataExportTag": "t4",
+        "QuestionType": "TE",
+        "Selector": "ESTB",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "InputWidth": 650,
+          "InputHeight": 260
+        },
+        "QuestionDescription": "Twelve minutes have passed. Please\u00a0continue\u00a0generating as many creative ideas as you can for an i...",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": [],
+        "QuestionID": "QID243",
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    },
+    {
+      "SurveyID": "SV_6mpaTztGS6qDDtr",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID234",
+      "SecondaryAttribute": "University Bookstore Task On the next page you will begin the task.\u00a0Your goal is to generate as m..",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<div style=\"text-align: center;\"><span style=\"font-size:19px;\">University Bookstore Task</span></div>\n<br />\n<span style=\"font-size:16px;\">On the next page you will begin the task.&nbsp;</span><span style=\"font-size: 16px;\">Your goal is to generate as many creative ideas as you can for an innovative product for the university bookstore to sell to students that will help roomates to get along better.&nbsp;</span>\n\n<div><br />\n<span style=\"font-size:16px;\">For each idea, please give&nbsp;the idea and a brief 1-2 sentence description of what the product is&nbsp;and/or what it does.<br />\n<br />\nYou will type your ideas into a textbox provided. Please press &quot;return&quot; after each idea you enter so that each idea appears on a separate line, as this will help us keep your ideas organized. Here is an example of how the textbox should look:&nbsp;</span><br />\n&nbsp;</div>\n\n<div><img src=\"https://cornell.qualtrics.com/CP/Graphic.php?IM=IM_2sq7VFENjXbvOhD\" style=\"text-align: center; width: 347px; height: 216px;\" /><br />\n&nbsp;</div>\n\n<div><span style=\"font-size:16px;\">T</span><span style=\"font-size: 16px;\">he page will&nbsp;refresh every four minutes to record the ideas you&#39;ve entered. The survey will automatically advance after the full 20 minutes.&nbsp;</span></div>\n\n<div>\n<div>&nbsp;</div>\n\n<div><span style=\"font-size:16px;\">Click the arrow when you are ready to begin the task.</span></div>\n</div>",
+        "DefaultChoices": false,
+        "DataExportTag": "Q61",
+        "QuestionID": "QID234",
+        "QuestionType": "DB",
+        "Selector": "TB",
+        "Configuration": { "QuestionDescriptionOption": "UseText" },
+        "QuestionDescription": "University Bookstore Task On the next page you will begin the task.\u00a0Your goal is to generate as m...",
+        "ChoiceOrder": [],
+        "Validation": { "Settings": { "Type": "None" } },
+        "GradingData": [],
+        "Language": [],
+        "DataVisibility": { "Private": false, "Hidden": false }
+      }
+    }
+  ]
+}

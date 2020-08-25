@@ -1,0 +1,74 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# packages
+
+```{r}
+library(tidyverse)
+library(magrittr)
+library(readxl)
+library(ggbeeswarm)
+```
+
+
+# data
+
+```{r}
+df_raw <- read_excel("./input/Studies 1to7.xlsx")
+df_p <- df_raw %>% 
+  select(subj, study, studydesc, age, gender, 
+    p1, p2, p3, p4, p5, 
+    c1, c2, c3, c4, c5, 
+    cr1, cr2, cr3, cr4, cr5) %>% 
+  pivot_longer(
+    cols = p1:cr5, 
+    names_to = c(".value", "iteration"), 
+    names_pattern = "([a-z]+)([1-9])"
+    ) %>% 
+  mutate(
+    evaluated_creativity = if_else(
+    (study %in% c(5, 7)), c, cr), # because  5 and 7's c value seems to be cr
+    perceived_creativity = p
+  ) %>% 
+  mutate(iteration = as.numeric(iteration)) %>% 
+  select(-p, -c, -cr)
+
+```
+
+
+## quick plot
+
+```{r fig.width=3, fig.height=12}
+df_p %>% 
+  ggplot(aes(x = iteration, y = creativity, group = subj)) +
+  geom_line(alpha = 0.3) +
+  geom_quasirandom(groupOnX = TRUE, width = 0.2) +
+  facet_grid(rows= vars(study))
+
+```
+めっちゃ自己肯定感高いやつとめっちゃ自己肯定感低いやつがおるな トシか？性別か？
+
+gender
+
+```{r fig.width=6, fig.height=3}
+df_p %>% 
+  ggplot(aes(x = iteration, y = creativity, group=subj, color = iteration)) +
+  geom_line(alpha = 0.3) +
+  # geom_smooth(method = "glm") +
+  geom_quasirandom(groupOnX = TRUE, width = 0.2) +
+  facet_grid(cols = vars(study), rows = vars(gender))
+```
+
+age
+
+```{r fig.width=6, fig.height=3}
+df_p %>% 
+  ggplot(aes(x = age, y = creativity, group=subj, color = iteration)) +
+  geom_line(alpha = 0.3) +
+  # geom_smooth(method = "glm") +
+  geom_quasirandom(groupOnX = TRUE, width = 0.2) +
+  facet_grid(cols = vars(study), rows = vars(gender))
+```
+
